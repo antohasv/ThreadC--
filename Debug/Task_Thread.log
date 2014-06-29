@@ -1,0 +1,60 @@
+﻿Построение начато 30.06.2014 2:20:28.
+     1>Проект "C:\Users\Антон\Documents\Visual Studio 2012\Projects\Task_Thread\Task_Thread\Task_Thread.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt thread.cpp
+         thread.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\functional(1152): error C2064: результатом вычисления фрагмента не является функция, принимающая 1 аргументов
+                 класс не определяет "operator()" или пользовательский оператор преобразования в указатель на функцию или ссылку на функцию, принимающий подходящее число аргументов
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\functional(1152): при компиляции функции-члена "void std::_Bind<_Forced,_Ret,_Fun,_V0_t,_V1_t,_V2_t,_V3_t,_V4_t,_V5_t,<unnamed-symbol>>::operator ()(void)" класса шаблон
+                 with
+                 [
+                     _Forced=true,
+                     _Ret=void,
+                     _Fun=std::_Pmf_wrap<void (__thiscall Thread::* )(int),void,Thread,int,std::_Nil,std::_Nil,std::_Nil,std::_Nil,std::_Nil,std::_Nil>,
+                     _V0_t=int,
+                     _V1_t=std::_Nil,
+                     _V2_t=std::_Nil,
+                     _V3_t=std::_Nil,
+                     _V4_t=std::_Nil,
+                     _V5_t=std::_Nil,
+                     <unnamed-symbol>=std::_Nil
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\thr\xthread(195): см. ссылку на создание экземпляров функции шаблон при компиляции "void std::_Bind<_Forced,_Ret,_Fun,_V0_t,_V1_t,_V2_t,_V3_t,_V4_t,_V5_t,<unnamed-symbol>>::operator ()(void)"
+                 with
+                 [
+                     _Forced=true,
+                     _Ret=void,
+                     _Fun=std::_Pmf_wrap<void (__thiscall Thread::* )(int),void,Thread,int,std::_Nil,std::_Nil,std::_Nil,std::_Nil,std::_Nil,std::_Nil>,
+                     _V0_t=int,
+                     _V1_t=std::_Nil,
+                     _V2_t=std::_Nil,
+                     _V3_t=std::_Nil,
+                     _V4_t=std::_Nil,
+                     _V5_t=std::_Nil,
+                     <unnamed-symbol>=std::_Nil
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\thread(52): см. ссылку на создание экземпляров класса шаблон при компиляции "std::_Bind<_Forced,_Ret,_Fun,_V0_t,_V1_t,_V2_t,_V3_t,_V4_t,_V5_t,<unnamed-symbol>>"
+                 with
+                 [
+                     _Forced=true,
+                     _Ret=void,
+                     _Fun=std::_Pmf_wrap<void (__thiscall Thread::* )(int),void,Thread,int,std::_Nil,std::_Nil,std::_Nil,std::_Nil,std::_Nil,std::_Nil>,
+                     _V0_t=int,
+                     _V1_t=std::_Nil,
+                     _V2_t=std::_Nil,
+                     _V3_t=std::_Nil,
+                     _V4_t=std::_Nil,
+                     _V5_t=std::_Nil,
+                     <unnamed-symbol>=std::_Nil
+                 ]
+                 c:\users\антон\documents\visual studio 2012\projects\task_thread\task_thread\thread.cpp(10): см. ссылку на создание экземпляров функции шаблон при компиляции "std::thread::thread<void(__thiscall Thread::* )(int),int>(_Fn,_V0_t &&)"
+                 with
+                 [
+                     _Fn=void (__thiscall Thread::* )(int),
+                     _V0_t=int
+                 ]
+     1>Построение проекта "C:\Users\Антон\Documents\Visual Studio 2012\Projects\Task_Thread\Task_Thread\Task_Thread.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:03.65
